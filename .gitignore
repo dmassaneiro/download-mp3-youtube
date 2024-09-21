@@ -1,0 +1,35 @@
+# Ignorar a pasta do ambiente virtual
+venv/
+.env
+
+# Ignorar arquivos de cache e compilação
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar arquivos de configuração do editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos gerados por ferramentas de documentação
+docs/_build/
+build/
+dist/
+
+# Ignorar arquivos de teste
+*.cover
+*.egg-info/
+*.egg
+
+# Ignorar arquivos de configuração do Jupyter Notebook
+.ipynb_checkpoints
+
+# Outros arquivos que você queira ignorar
+*.DS_Store  # Para macOS
+Thumbs.db   # Para Windows
